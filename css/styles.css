@@ -1,0 +1,23 @@
+
+:root{
+    --cell-size: 100px;
+    --color: rgba(245, 40, 145, 0.8);
+    --color-set: rgba(245, 40, 145, 1);
+    --color-two: rgba(40, 245, 145, 0.8);
+    --color-two-set: rgba(40, 245, 145, 1);
+    --l: 10px; 
+}
+body{
+    margin: 0;
+    background-color: black;
+}
+.board{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns:repeat(3, auto)
+}
