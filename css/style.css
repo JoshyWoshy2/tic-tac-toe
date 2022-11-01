@@ -2,13 +2,13 @@ body{
     display:flex;
     flex-direction:column;
     align-items: center;
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(255, 255, 255);
     font-family:'Pacifico';
 }
 
 
 #board {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     display: grid;
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 100px 100px 100px;
@@ -36,8 +36,7 @@ h1{
     
 }
 
-.right-line{
-    border-right: 3px solid #28f591;
+.neon-box{
     box-shadow: 0 0 .2rem #fff,
               0 0 .2rem #fff,
               0 0 2rem #28f591,
@@ -45,25 +44,17 @@ h1{
               0 0 2.8rem #28f591,
               inset 0 0 1.3rem #28f591;
 }
-.bottom-line{
-    border-bottom:3px solid #28f591;
-    box-shadow: 0 0 .2rem #fff,
-              0 0 .2rem #fff,
-              0 0 2rem #28f591,
-              0 0 0.8rem #28f591,
-              0 0 2.8rem #28f591,
-              inset 0 0 1.3rem #28f591;
-}
+
 button{
     height: 60px;
     width: 60px;
     font-size: 40px;
     border: none;
-    color:rgb(255, 0, 0);
+    color: #f00;
     background-color: rgb(0, 0, 0);
     text-shadow: 
-    0 0 40px #ff0000,
-    0 0 80px #ff0000;
+    0 0 40px #f00,
+    0 0 80px #f00;
     
 }
 
