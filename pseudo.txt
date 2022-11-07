@@ -1,6 +1,4 @@
-1. 'click' on button
-2. 'click' on tile
+
+2. 'click' event decides on tile or button
 3. mark tile as occupied w players char
 4. on win display win text 
-
-

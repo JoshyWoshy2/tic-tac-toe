@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
-    <script src="https://kit.fontawesome.com/77dd1f89f8.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/77dd1f89f8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
     <title>Tic Tac Toe</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Tic Tac Toe</h1>
-    <button class="restart"><i class="fa-solid fa-power-off"></i></button>
-    <br>
-    <br>
+    <button class="restart" id="restart">
+      <i class="fa-solid fa-power-off"></i>
+    </button>
+    <br />
+    <br />
     <div id="board">
-        <div data-index="1" class="square neon-box">x</div>
-        <div data-index="2" class="square neon-box">x</div>
-        <div data-index="3" class="square neon-box">x</div>
-        <div data-index="4" class="square neon-box">x</div>
-        <div data-index="5" class="square neon-box">x</div>
-        <div data-index="6" class="square neon-box">x</div>
-        <div data-index="7" class="square neon-box">x</div>
-        <div data-index="8" class="square neon-box">x</div>
-        <div data-index="9" class="square neon-box">x</div>
+      <div data-index="1" class="square neon-box"></div>
+      <div data-index="2" class="square neon-box"></div>
+      <div data-index="3" class="square neon-box"></div>
+      <div data-index="4" class="square neon-box"></div>
+      <div data-index="5" class="square neon-box"></div>
+      <div data-index="6" class="square neon-box"></div>
+      <div data-index="7" class="square neon-box"></div>
+      <div data-index="8" class="square neon-box"></div>
+      <div data-index="9" class="square neon-box"></div>
     </div>
-    <div>
-        <h2 id="game-over-text" class="hidden">Winner is: X</h2>
-    </div>
-</body>
+    <!-- <div>
+        <h2 id="game-over-text" class="hidden visible">Winner is: X</h2>
+    </div> -->
+  </body>
 </html>
